@@ -1,0 +1,51 @@
+.trucks-list{
+    padding:0 30rpx;
+}
+.truck-item{
+    position: relative;
+    margin-top: 30rpx;
+    height:142rpx;
+    background: #FFFFFF;
+    box-shadow: 0 1rpx 2rpx 0 rgba(0,0,0,.2);
+    border-radius: 6rpx;
+}
+.truck-item .start,.truck-item .end{
+    position: absolute;
+    top:30rpx;
+    width: 280rpx;
+    text-align: center;
+}
+.truck-item .start{
+    left:10rpx;
+}
+.truck-item .end{
+    right:10rpx;
+}
+
+.truck-item .city{
+    display:block;
+    font-size: 32rpx;
+    line-height: 32rpx;
+}
+.truck-item .province{
+    margin-top: 20rpx;
+    font-size: 28rpx;
+    line-height: 28rpx;
+    color:#666;
+    display: block;
+}
+
+.claim{
+    position: absolute;
+    left:50%;
+    top:42rpx;
+    padding-top: 44rpx;
+    width: 176rpx;
+    text-align: center;
+    font-size: 24rpx;
+    line-height: 24rpx;
+    transform: translate(-50%,0);
+    color:#8faacc;
+    background: url("https://s.kcimg.cn/app/images/matching/truck_on_the_road.png") no-repeat 0 0;
+    background-size: 100% 30rpx;
+}

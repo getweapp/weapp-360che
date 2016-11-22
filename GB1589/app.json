@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/talk/index",
+    "pages/description/index",
+    "pages/nav/index",
+    "pages/recovery/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "卡车之家解读新GB1589",
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#F1F1F1",
+    "backgroundTextStyle":"light",
+    "enablePullDownRefresh":false
+  },
+  "tabBar": {
+    "color":"#999",
+    "selectedColor":"#ec5b3c",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "position":"bottom",
+    "list": [
+            {
+              "pagePath": "pages/index/index",
+              "text": "首页",
+              "iconPath":"images/ico_index.png",
+              "selectedIconPath":"images/ico_index_selected.png"
+            },
+            {
+              "pagePath": "pages/talk/index",
+              "text": "讨论",
+              "iconPath":"images/ico_talk.png",
+              "selectedIconPath":"images/ico_talk_selected.png"
+            },
+            {
+              "pagePath": "pages/description/index",
+              "text": "解读",
+              "iconPath":"images/ico_reading.png"
+            },
+            {
+              "pagePath": "pages/nav/index",
+              "text": "目录",
+              "iconPath":"images/ico_nav.png"
+            },
+            {
+              "pagePath":"pages/recovery/index",
+              "text":"回顾",
+              "iconPath":"images/ico_recovery.png"
+            }
+        ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

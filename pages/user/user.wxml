@@ -1,0 +1,16 @@
+<page>
+    <view class="user-info">
+        <image src="{{userInfo.avatar}}" class="avatar" />
+        <text class="nickname">{{userInfo.nickname}}</text>
+        <view class="total">
+            <text>{{total.view}}</text>个货主查看
+            <text>{{total.favorite}}</text>个货主收藏
+        </view>
+    </view>
+    <navigator class="publish" url="../trucks/trucks">
+        <text>我发布的车源</text>
+    </navigator>
+    <navigator class="favorite" url="../favorites/favorites">
+        <text>我的收藏</text>
+    </navigator>
+</page>

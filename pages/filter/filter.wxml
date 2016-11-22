@@ -1,0 +1,7 @@
+<view class="page">
+	<block wx:for="{{list}}">
+		<navigator url="../option/option?id={{index}}">
+			<view>{{item}}</view>
+		</navigator>
+	</block>
+</view>

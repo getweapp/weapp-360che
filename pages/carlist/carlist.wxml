@@ -1,0 +1,21 @@
+
+<include src="../filter/filter.wxml" />
+
+<view class="goods">
+	<view class="monad">
+		<view class="place">
+			<view class="start">
+				<text class="city">{{start.city}}</text>
+				<text class="province">{{start.province}}</text>
+			</view>
+			<view class="distance">
+				<view class="image"><image src="../../images/truck_on_the_road.png"></image></view>
+				<text>大概{{mileage}}公里</text>
+			</view>
+			<view class="end">
+				<text class="city">{{end.city}}</text>
+                <text class="province">{{end.province}}</text>
+			</view>
+		</view>
+	</view>
+</view>

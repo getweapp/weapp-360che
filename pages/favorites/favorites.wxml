@@ -1,0 +1,25 @@
+<page>
+	<view class="goods">
+		<navigator class="monad" wx:for="{{list}}" url="../detail/detail?id={{item.id}}" wx:key="item.id">
+			<view class="place">
+				<view class="start">
+					<text class="city">{{item.start['city']}}</text>
+					<text class="province">{{item.start['province']}}</text>
+				</view>
+				<view class="distance">
+					<view class="image"><image src="../../images/truck_on_the_road.png"></image></view>
+					<text>大概{{item.mileage}}公里</text>
+				</view>
+				<view class="end">
+					<text class="city">{{item.end['city']}}</text>
+	                <text class="province">{{item.end['province']}}</text>
+				</view>
+			</view>
+			<view class="condition">
+				<block wx:for="{{item.source}}" wx:key="item.id">
+					<text class="{{item.classname}}">{{item.content}}</text>
+				</block>
+			</view>
+		</navigator>
+	</view>
+</page>

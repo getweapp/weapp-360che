@@ -1,0 +1,13 @@
+<page>
+    <view class="container">
+        <icon type="waiting" size="93" />
+        <view class="info">
+            <caption>上次成功，请等待审核成功</caption>
+            <text class="supplementary">审核通过将会呈现给合适的货主</text>
+        </view>
+        <view class="links">
+            <button type="primary" bindtap="goHome">回主页面</button>
+            <button type="default" bindtap="viewMyList">查看我发布的车源</button>
+        </view>
+    </view>
+</page>

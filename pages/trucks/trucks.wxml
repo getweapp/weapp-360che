@@ -1,0 +1,17 @@
+<page>
+    <view class="trucks-list">
+        <view wx:for="{{trucks}}" class="truck-item" wx:key="item.id">
+            <view class="start">
+                <text class="city">{{item.startCity}}</text>
+                <text class="province">{{item.startProvince}}</text>
+            </view>
+            <view class="claim">
+                <text>{{item.claim}}</text>
+            </view>
+            <view class="end">
+                <text class="city">{{item.endCity}}</text>
+                <text class="province">{{item.endProvince}}</text>
+            </view>
+        </view>
+    </view>
+</page>

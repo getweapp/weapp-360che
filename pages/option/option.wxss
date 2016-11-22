@@ -1,0 +1,14 @@
+.page{height:100rpx;width:100%;display: flex;background: #FAFAFA;border-top: 1rpx solid #CDCDCD;border-bottom: 1rpx solid #CDCDCD;}
+.page navigator{width: 33%;display: flex;box-flex: 1;text-algin:center;border-right: 1rpx solid #CDCDCD;}
+.page view{width:100%;line-height:100rpx;width:100%;text-align: center;color:#353535;font-size: 30rpx;}
+.page navigator:last-child{border:none}
+
+.chunk{padding: 40rpx 0 0 30rpx;}
+.chunk text{display:block;font-size: 28rpx;color: #888;line-height: 28rpx;margin-bottom:20rpx;}
+.chunk view{display:inline-block;padding: 19rpx 40rpx;min-width: 120rpx;text-align:center;line-height:45rpx;border: 2rpx solid #e5e5e5;border-radius: 6rpx;color:#333;margin: 0 30rpx 30rpx 0;}
+.chunk view.selected{border-color:#1AAD19;color:#1AAD19;}
+.chunk .image{min-width:0;width:44rpx;height:28rpx;overflow:hidden;border:none;padding:0;margin:0;}
+.chunk .image image{height:28rpx;width:100%;display:block;}
+
+.sidebar{position:fixed;right:17rpx;bottom:100rpx;width:24rpx;font-size:24rpx;color:#333;}
+.sidebar view{width:24rpx;text-algin:center;}

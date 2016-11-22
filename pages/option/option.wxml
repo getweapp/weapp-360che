@@ -1,0 +1,48 @@
+<include src="../filter/filter" />
+<view class="chunk">
+	<text>定位城市</text>
+	<view class="selected">北京</view>
+</view>
+<view class="chunk">
+	<text>历史记录</text>
+	<view>
+		北京
+		<view class="image"><image src="../../../images/car.png"></image></view>
+		天津
+	</view>
+</view>
+<view class="chunk">
+	<text>A</text>
+	<view>北京</view>
+	<view>北京</view>
+	<view style="margin-right:0">北京</view>
+	<view>北京</view>
+</view>
+<view class="sidebar">
+	<view>#</view>
+	<view>A</view>
+	<view>B</view>
+	<view>C</view>
+	<view>D</view>
+	<view>E</view>
+	<view>F</view>
+	<view>G</view>
+	<view>H</view>
+	<view>I</view>
+	<view>J</view>
+	<view>K</view>
+	<view>L</view>
+	<view>N</view>
+	<view>O</view>
+	<view>P</view>
+	<view>Q</view>
+	<view>R</view>
+	<view>S</view>
+	<view>T</view>
+	<view>U</view>
+	<view>V</view>
+	<view>W</view>
+	<view>X</view>
+	<view>Y</view>
+	<view>Z</view>
+</view>

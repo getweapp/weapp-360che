@@ -1,0 +1,18 @@
+.page{height:100rpx;width:100%;display: flex;background: #FAFAFA;border-top: 1rpx solid #CDCDCD;border-bottom: 1rpx solid #CDCDCD;}
+.page navigator{width: 33%;display: flex;box-flex: 1;text-algin:center;border-right: 1rpx solid #CDCDCD;}
+.page view{width:100%;line-height:100rpx;width:100%;text-align: center;color:#353535;font-size: 30rpx;}
+.page navigator:last-child{border:none}
+
+.goods{background:#EFEFF4;padding:30rpx 30rpx 0 30rpx;}
+.monad{margin-bottom:30rpx;background:#fff;padding: 0 60rpx;height:250rpx;box-shadow: 0 1rpx 2rpx 0 rgba(0,0,0,0.20);border-radius: 6rpx;}
+.place{position: relative;height:140rpx;border-bottom:1rpx solid #F0F5FA;}
+.place view{text-algin:center;}
+.place text,.place view{display:block;}
+.place .start,.place .end{position: absolute;width:130rpx;padding-top:30rpx;}
+.place .start{left:0;top:0}
+.place .end{top:0;right:0;}
+.place .city{font-size: 36rpx;color: #333;line-height:36rpx;padding-bottom:20rpx}
+.place .province{font-size: 28rpx;color: #666;}
+.place .distance{display:block;width:176rpx;padding-top:42rpx;margin: 0 auto;}
+.place .distance image,.place .distance .image{width:176rpx;height:30rpx;margin-bottom:12rpx;overflow:hidden;}
+.place .distance text{color:#8FAACC;line-height: 24rpx;font-size: 24rpx;}

@@ -1,0 +1,32 @@
+.page{height:100rpx;width:100%;display: flex;background: #FAFAFA;border-top: 1rpx solid #CDCDCD;border-bottom: 1rpx solid #CDCDCD;}
+.page navigator{width: 33%;display: flex;box-flex: 1;text-algin:center;border-right: 1rpx solid #CDCDCD;}
+.page view{width:100%;line-height:100rpx;width:100%;text-align: center;color:#353535;font-size: 30rpx;}
+.page navigator:last-child{border:none}
+
+.goods{background:#EFEFF4;padding:30rpx 30rpx 0 30rpx;}
+.monad{margin-bottom:30rpx;background:#fff;padding: 0 60rpx;height:250rpx;box-shadow: 0 1rpx 2rpx 0 rgba(0,0,0,0.20);border-radius: 6rpx;}
+.place{position: relative;height:140rpx;border-bottom:1rpx solid #F0F5FA;}
+.place view{text-algin:center;}
+.place text,.place view{display:block;}
+.place .start,.place .end{position: absolute;width:180rpx;padding-top:30rpx; text-align: center}
+.place .start{left:0;top:0}
+.place .end{top:0;right:0;}
+.place .city{font-size: 36rpx;color: #333;height:36rpx;line-height:36rpx;margin-bottom:20rpx}
+.place .province{font-size: 28rpx;color: #666;}
+.place .distance{display:block;width:176rpx;padding-top:42rpx;margin: 0 auto; text-align:center;}
+.place .distance image,.place .distance .image{width:176rpx;height:30rpx;margin-bottom:12rpx;overflow:hidden;}
+.place .distance text{color:#8FAACC;line-height: 24rpx;font-size: 24rpx;}
+
+.condition{position: relative;width:100%;display: block;height:50rpx;padding:30rpx 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.condition text{
+    margin:0 10rpx;
+    border-radius: 25rpx;font-size:24rpx;line-height:30rpx;padding:8rpx 20rpx 7rpx 22rpx;border:1px solid #eee;
+    display:inline-block;
+     vertical-align: top;
+}
+.condition .truck{color:#8BBFFF;border-color:#8BBFFF;}
+.condition .article{color:#58DF7E;border-color:#58DF7E;}
+.condition .price{color:#FFB578;border-color:#FFB578;}

@@ -1,0 +1,47 @@
+<page>
+    <view class="header">
+        <view class="distance">
+            <view class="start">
+                <text class="city">{{start.city}}</text>
+                <text class="province">{{start.province}}</text>
+            </view>
+            <view class="mileage">
+                <text>大概{{mileage}}公里</text>
+            </view>
+            <view class="end">
+                <text class="city">{{end.city}}</text>
+                <text class="province">{{end.province}}</text>
+            </view>
+        </view>
+        <text class="receipt">{{receipt}}</text>
+    </view>
+
+    <!-- 地址信息 -->
+    <view class="module address-info">
+        <view wx:for="{{address}}" class="grid" wx:key="item.id">
+            <caption>{{item.title}}</caption>
+            <text class="content">{{item.content}}</text>
+            <text class="region" bindtap="showMap" data-index="{{index}}">定位</text>
+        </view>
+    </view>
+
+    <!-- 货源详情 -->
+    <view class="module source-info">
+        <view class="cell" wx:for="{{source}}" wx:key="item.id">
+            <caption>{{item.caption}}</caption>
+            <text>{{item.content}}</text>
+        </view>
+    </view>
+
+    <!-- 其他说明 -->
+    <view class="module other">
+        <caption>其他说明</caption>
+        <view class="content">{{other}}</view>
+    </view>
+
+    <view class="footer">
+        <button class="tel" type="primary" class="tel" data-index="{{index}}" bindtap="makePhoneCall">货源电话：{{phone}}</button>
+        <button class="favorite" type="default" bindtap="addFavorite">收藏这条货源</button>
+    </view>
+
+</page>

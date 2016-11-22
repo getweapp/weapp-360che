@@ -1,0 +1,24 @@
+.container{
+    padding:100rpx 40rpx;
+    text-align: center;
+}
+.info caption{
+    margin: 50rpx 0 30rpx;
+    font-size: 40rpx;
+    line-height: 56rpx;
+}
+.info .supplementary{
+    font-size: 28rpx;
+    line-height: 40rpx;
+    color:#888;
+    display: block
+}
+
+.links{
+    padding-top: 30rpx;
+    overflow:hidden;
+}
+
+.links button{
+    margin-top: 30rpx;
+}

@@ -1,0 +1,69 @@
+.user-info{
+    position: relative;
+    margin-top:20rpx;
+    padding:30rpx 30rpx 30rpx 180rpx;
+    min-height:120rpx;
+    background: #fff;
+}
+.avatar{
+    position: absolute;
+    left:30rpx;
+    top:30rpx;
+    width: 120rpx;
+    height:120rpx;
+    border-radius: 50%
+}
+.nickname{
+    font-size: 36rpx;
+    line-height: 56rpx;
+    height:72rpx;
+    display:block;
+}
+.total{
+    font-size: 30rpx;
+    line-height: 30rpx;
+    color:#888;
+}
+.total text{
+    color:#333
+}
+.total text:last-child{
+    margin-left: 20rpx;
+}
+
+navigator{
+    position: relative;
+    margin-top: 30rpx;
+    padding:27rpx 60rpx 27rpx 90rpx;
+    height:34rpx;
+    line-height: 34rpx;
+    overflow: hidden;
+    background: #fff;
+}
+navigator:after{
+    position: absolute;
+	content: "";
+    top: 50%;
+    right: 30rpx;
+    width: 12rpx;
+    height: 12rpx;
+    border-top: 1rpx solid #999;
+    border-right: 1rpx solid #999;
+    transform:translate(0,-50%) rotate(45deg);
+}
+navigator:before{
+    position: absolute;
+    left:30rpx;
+    top:27rpx;
+    width: 30rpx;
+    height: 34rpx;
+    content:"";
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.publish:before{
+    background-image: url("https://s.kcimg.cn/app/images/matching/posted.png")
+}
+.favorite:before{
+    background-image: url("https://s.kcimg.cn/app/images/matching/collected.png")
+}
